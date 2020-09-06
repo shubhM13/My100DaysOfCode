@@ -1,0 +1,77 @@
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1em;
+  overflow: visible;
+  vertical-align: -.125em;  
+  text-rendering: auto;
+}
+
+.icon-codeclinic { 
+  background: url('../images/codeclinicicon_white.svg') no-repeat center center;
+  background-size: contain;
+}
+
+.header {
+	background-color: #093641;
+	padding: 50px 0;
+}
+
+.header h1{
+	font-size: 3rem;
+	color: #37A198;
+}
+
+.header h2{
+	font-family: 'Roboto Slab';
+	font-weight: 300;
+	color: #EEE8D6;
+}
+
+.header .language {
+	font-family: 'Roboto Slab';
+	color: #F9B640;
+	font-size: 3rem;
+}
+
+.header .language img {
+  width: 40px;
+  vertical-align: 0px;
+}
+
+
+.header .branding{
+	margin: 0 auto;
+}
+
+.header .branding .logo{
+	width: 10%;
+	min-width: 100px;
+	padding-right: 10px;
+	float: left;
+}
+.dev-monk{
+    width: 112px;
+    padding-top: 12%;
+    padding-right: 5%;
+
+}
+.h2, h2 {
+    font-size: 1.5rem;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+	color: #EEE8D6;
+	margin-top: 20px;
+}
+
+.footer h2 {
+	font-size: 2rem;
+	color: #EEC857;
+	margin-bottom: 10px;
+}
+.footer p {
+	font-size: 1.5rem;
+}

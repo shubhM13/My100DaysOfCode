@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code Clinic: JavaScript</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/c3.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-info">
+  <header class="header">
+    <div class="branding container">
+      <div class="logo"><img class="dev-monk" src="images/dev-monk.jfif" alt="Dev Monk Logo"></div>
+      <div class="body">
+        <h1>Dev Monk <span class="language"><img src="images/javascriptlogo.svg" alt="JavaScript Logo"></span></h1>
+        <h2>Exploring Lake Pend Oreille</h2>
+      </div>
+    </div>
+  </header>
+  <div class="bg-white py-5">
+    <div class="container">
+      <div class="form-row justify-content-center mb-3">
+        <div class="input-group col-12 col-md-8 col-lg-5 mb-2 mb-xl-auto">
+          <div class="input-group-prepend">
+            <span class="input-group-text" required>from</span>
+          </div>
+          <input id="fromDate" class="form-control" type="date">
+          <input id="fromTime" class="form-control" type="time">
+        </div>
+
+        <div class="input-group col-12 col-md-8 col-lg-5 mb-2 mb-xl-auto">
+          <div class="input-group-prepend">
+            <span class="input-group-text" required>to</span>
+          </div>
+          <input id="toDate" class="form-control" type="date">
+          <input id="toTime" class="form-control" type="time">
+        </div>
+      </div>
+      <div id="chart"></div>
+    </div>
+  </div>
+    <footer class="footer container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>About :</h2>
+      </div>
+    </div>
+    <div class="row">
+      <p class="col-md-6">Day 3 of #100DaysOfCode. <br> Stay tuned to @dev_monk13 for more.</p>
+      <p>The data source is : <a>http://lpo.dt.navy.mil/</a></p>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/d3.min.js"></script>
+  <script src="js/c3.min.js"></script>
+  <script src="js/moment.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
