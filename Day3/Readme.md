@@ -1,4 +1,4 @@
-Statistical Analysis of Lake Pend Oreille -
+Statistical Analysis of Lake Pend Oreille - JavaScript Solution
 
 Lake Pend Orielle is the deepest lake in USA, so deep that US Navy uses it to test submaries.
 
